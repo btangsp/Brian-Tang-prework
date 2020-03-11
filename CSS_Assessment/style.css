@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+}
+
+.nav {
+    background-color: gray;
+    color: black;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box1 {
+    float: left;
+    width: 50%;
+    background-color: blue;
+}
+
+.box2 {
+    float: right;
+    width: 25%;
+    background-color: red;
+}
+
+.box1, .box2 {
+    margin: 10px 0px;
+}
+
+.box1 > p, .box2 > p {
+    padding: 100px 0px;
+}
+
+.footer {
+    background-color: green;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+div p {
+    text-align: center;
+    margin: 0px;
+}
