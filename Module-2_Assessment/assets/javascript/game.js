@@ -30,9 +30,14 @@ for (let i = 0; i < wordBank.length; i++) {
             }
             if (word is guessed) {
                 numWins++
+                clears user's guessed chars
+                play sound
+            }
+            display user's guessed char
+            numGuessesLeft--
+            if numGuesses left == 0 {
+                sets word guessed as true to escape while loop but does not increment numWins
             }
         }
-        
-        display user input
     */
 }
